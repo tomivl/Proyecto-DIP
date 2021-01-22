@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@media (max-width: 845px)
+{
+    .descripcionCard{
+        display: none
+        }
+}
+.card{
+    height: 100%;
+}
+#all{
+    background-color: black;
+    flood-opacity: inherit; 
+}
+#all2{
+    background-color:black;
+    flood-opacity: inherit; 
+}
+#all3{
+    background-color: black;
+  flood-opacity: inherit;
+}
+#leyendaconsulta{
+    color: rgb(236, 193, 186);
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+}
+#titulo-card-dip{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#cajaFormulario{
+    font-size: larger;
+    background-color: #4F603D;
+    margin: 3em 3em 3em 3em;
+    padding: 1em 2em 2em 2em;
+    border: solid;
+    border-width: 0.4px;
+    border-radius: 10px;
+}
+#leyendacajamsj{
+    font-size: 2em;
+    font-weight: 600;
+   
+}
+#mapaLocalizacion{
+    text-align: center
+}
+#mapa{
+    margin: 2em 2em 2em 2em;
+  
+
+}
+
+header{
+    color: rgb(236, 193, 186);
+    text-align: center;
+}
+#leyendametodopago{
+    text-align: center;
+}
+
+#AcercaDe{
+    color:  rgb(236, 193, 186);
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    margin: 2% 10% 5% 10%;
+    border: solid;
+    border-color: cornflowerblue;
+text-align: center;
+}
+
+.nav-wrapper{
+    width: 100%;
+    justify-content: flex-start;
+}
+.row{
+    height: 100%;
+}
+#title{
+    font-family: 'Fredericka the Great', cursive;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+#items{
+    display: flex;
+    border: solid;
+    justify-content: space-around;
+    border-color: #ff8a80;
+    background-color: #83C7B2;
+    color: #B45A3E;
+    margin: 0 2% 0 2%;
+}
+#dips{
+    display: flex;
+    border: solid;
+    justify-content: space-around;
+    border-color: #ff8a80;
+    background-color: #83C7B2;
+    color: #B45A3E;
+    margin: 0 2% 0 2%;
+}
+#dipslistado{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.itemNombre{
+    font-weight: 600;
+}
+.iconoCarrito{
+    max-width: 12%;
+    margin-right: 2px;
+}
+    
+.nombredip{
+    font-size: 1.5em;
+    color: #B45A3E;
+}
+.descripciondip{
+    color: black;
+}
+
+#itemscarrito{
+    font-weight: bolder;
+    font-size: 1em;
+    color: rgb(236, 193, 186);
+}
+
+#mapaLocalizacion{
+    color:  rgb(236, 193, 186);
+}
+.tabla-carrito{
+margin-bottom: 0%;
+margin-top: 0%;
+}
+.numerogrilladip{
+    width: 4em;
+}
+#title-logo{
+    display: inline-block;
+    max-height: 7%;
+    width: 100%;
+}
+.logo{
+    margin-bottom: 0%;
+    width: 8em; height: 7em; 
+}
+.botondelete{
+    width: 3%;
+}
+.logoCheckout{
+    width: 4em; height: 3em;
+}
+#footer{
+    margin-top: 2%;
+}
+#shoppingcart{
+    margin-top: 2%;
+    padding-top: 1%;
+}
+.leyendanumerototal{
+    font-size: 1em;
+    font-weight: 700;
+}

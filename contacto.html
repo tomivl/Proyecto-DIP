@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script  src="https://code.jquery.com/JQuery-3.5.1.min.js"></script>
+    <script defer src="jsondips.js"></script>
+    <script defer src="storage.js"></script>
+    <script defer src="scriptcontacto.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="all3">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <ul>
+                    <li><a href="index.html" class="waves-effect waves-light btn">Tienda</a></li>
+                    <li><a href="acerca-de.html" class="waves-effect waves-light btn">Acerca de </a></li>
+                    <li><a href="contacto.html" class="waves-effect waves-light btn">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <header>
+      <img class="logo" src="img/PicsArt_12-29-09.21.18.png">
+    </header>
+    <h3 id="leyendaconsulta">Si desea hacer una sugerencia o consulta sobre envíos al por mayorcomplete el
+        siguiente
+        formulario y nosotros lo contactaremos a la brevedad. </h3>
+    <div id="cajaFormulario">
+        <div class="row">
+            <div class="form-section">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input  id="first_name" type="text" class="validate" onblur="guardoDato(this)">
+                  <label for="first_name">Nombre</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate" onblur="guardoDato(this)">
+                  <label for="last_name">Apellido</label>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="form-section" id="emaildiv">
+            <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate" onblur="guardoDato(this)">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+        </div>
+        <div class="form-section" id="phonediv">
+            <div class="input-field col s6">
+                <i class="material-icons prefix">phone</i>
+                <input id="icon_telephone" type="tel" class="validate" onblur="guardoDato(this)">
+                <label for="icon_telephone">Teléfono</label>
+              </div>
+                <div class="form-section" id="textareadiv">
+                        <label for="textarea1">Ingrese su mensaje aqui</label>
+                        <textarea id="textarea1" class="materialize-textarea" onblur="guardoDato(this)"></textarea>
+                </div>
+                <div class="form-section" id="sumbmitdiv">
+                    <button id="boton-envio" class="btn waves-effect waves-light red accent-1" type="submit" name="action">Enviar
+                        <i class="material-icons right">send</i>
+                      </button>
+                </div>
+            </label>
+        </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
